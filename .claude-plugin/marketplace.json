@@ -1,0 +1,15 @@
+{
+  "name": "ui-police",
+  "description": "A UI review skill for web app changes.",
+  "owner": {
+    "name": "UI police contributors"
+  },
+  "plugins": [
+    {
+      "name": "ui-police",
+      "description": "Find UI code issues and review page captures.",
+      "source": "./",
+      "homepage": "https://github.com/oyren-ai/ui-police-skill"
+    }
+  ]
+}

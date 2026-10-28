@@ -1,0 +1,42 @@
+{
+  "name": "ui-police",
+  "version": "0.1.0",
+  "description": "Check UI code and page captures before review.",
+  "type": "module",
+  "bin": {
+    "ui-police": "./bin/ui-police.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.64.0"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "skills",
+    "docs",
+    "lint.mjs",
+    "look.mjs",
+    "judge.mjs",
+    "sweep.mjs",
+    "rank.mjs",
+    "rubric.md",
+    "install.sh",
+    "LICENSE",
+    "README.md"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyren-ai/ui-police-skill.git"
+  },
+  "homepage": "https://github.com/oyren-ai/ui-police-skill#readme",
+  "bugs": {
+    "url": "https://github.com/oyren-ai/ui-police-skill/issues"
+  }
+}

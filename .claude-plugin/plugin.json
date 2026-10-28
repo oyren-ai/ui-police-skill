@@ -1,0 +1,9 @@
+{
+  "name": "ui-police",
+  "version": "0.1.0",
+  "description": "Check UI code and page captures before review.",
+  "author": {
+    "name": "UI police contributors"
+  },
+  "homepage": "https://github.com/oyren-ai/ui-police-skill"
+}
