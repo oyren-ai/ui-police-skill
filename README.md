@@ -38,7 +38,7 @@ Use the app's button and token instead:
 
 ## Install the skill
 
-`npx ui-police install` copies the same skill into each CLI it finds: Claude Code, Codex and Antigravity. It is safe to run again. After the repository is public, you can also run `curl -fsSL https://raw.githubusercontent.com/oyren-ai/ui-police-skill/main/install.sh | bash`. You can also install one copy by hand:
+`npx ui-police install` copies the same skill into each CLI it finds: Claude Code, Codex and Antigravity. It is safe to run again. You can also run `curl -fsSL https://raw.githubusercontent.com/oyren-ai/ui-police-skill/main/install.sh | bash`. You can also install one copy by hand:
 
 | CLI | Skill folder |
 | --- | --- |
@@ -53,7 +53,7 @@ Claude Code can install the repository as a plugin:
 /plugin install ui-police@ui-police
 ```
 
-The repository also has `.agents/skills/ui-police` for project use in Codex and Antigravity. The GitHub install needs access while this repository is private. The CLI runs on Node 20 or later. `playwright-core` needs a Chromium browser for `look` and `refs`.
+The repository also has `.agents/skills/ui-police` for project use in Codex and Antigravity. The CLI runs on Node 20 or later. `playwright-core` needs a Chromium browser for `look` and `refs`.
 
 ## Capture a reference
 
